@@ -38,8 +38,90 @@
        text-decoration:;
        background-color: rgb(224, 17, 17);
      }
+     .HeroSection {
+            width: 100%;
+            height: 80vh;
+            background-color:white;
+            display: flex;
+            justify-content: center;
+            align-items: centers;
+        }
 
-     </style>
+        
+        .HSLeft {
+            width: 30%;
+            height: 100%;
+        
+        }
+    
+     .HSRight {
+            
+            background-image: url("decorative-cosmetics.jpg");
+            background-size: cover;
+            background-position: center;
+            width: 80%;
+            height: 100%;
+            display: flex;
+        }
+        .HSRContent {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 5%;
+
+        }
+        .HSRContent>button {
+            width: 40%;
+            padding: 10px 20px;
+            margin-top: 10px;
+            border: 2px solid black;
+            background-color: transparent;
+            position: relative;
+            overflow: hidden;
+        }
+
+        
+        .HSRContent>button::before {
+            content: "";
+            position: absolute;
+            width: 20%;
+            height: 150px;
+            background-color: rgb(2, 29, 29);
+            top: -108px;left: 0;
+            transform: rotate(40deg);
+            transition: all 0.5s linear;
+        }
+
+        .HSRContent>button:hover:before {
+            content: "";
+            position: absolute;
+            width: 20%;
+            height: 150px;
+            top: 80%;left: 100%;
+            
+
+            
+        }
+
+        
+      .HSRContent>h4 {
+            color: rgb(231, 22, 22);
+            margin-top: 10px;
+
+        }
+
+        .HSRContent>h3 {
+            font-size: 30px;
+            font-weight: 100;
+            margin-top: 10px;
+
+        }
+
+        .HSRContent>p {
+            margin-top: 10px;
+
+        }</style>
     <div class="nav">
     <ul>
         
@@ -83,6 +165,29 @@
         <li style="margin-left:350px;">Track Order</li>
         <li>Daily Deals</li>
         </ul></div>
+        <div class="wrapper">
+
+            <div class="HeroSection">
+                <div class="HSLeft">
+    
+                </div>
+                <div class="HSRight">
+                    <div class="HSRContent">
+
+                        <h4>FROM ONLINE STORE</h4>
+                        <h1>Maybelline</h1>
+                        <h3>Recommended</h3>
+                        <p>Free Shopping</p>
+                        <button>SHOP NOW</button>
+                        
+                    </div>
+    
+                </div>
+    
+    
+            </div>
+    
+        </div>
        
         
 </body>
