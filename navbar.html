@@ -4,23 +4,25 @@
 </head>
 <body>
     <style>
-        
+        *{margin:0;
+        padding:0;}
 
     .nav ul{
        
-      
        display:flex;
        flex-direction: row;
        justify-content:left; 
+       border:1px solid black
         }
+        
         .nav  ul li{
         list-style:none;
-        padding:10px; 
-        color:rgb(0, 1, 0);        
+        padding:20px; 
+        color:black;        
         }
         .navi ul{
-         background-color: rgb(15, 12, 14);
-        padding-left: 40px;
+         background-color: black;
+        padding-left: 0px;
         display:flex;
         flex-direction: row;
         justify-content:left;  
@@ -30,13 +32,14 @@
          padding: 20px;
         color:rgb(247, 252, 252);}
 
-        select, option {
-    width: 250px;
+        select,option {
+    width: 290px;
+    padding:0;
 }
      .navi ul li:hover{
          color: white;
        text-decoration:;
-       background-color: rgb(224, 17, 17);
+       background-color: palevioletred;
      }
      .HeroSection {
             width: 100%;
@@ -49,9 +52,9 @@
 
         
         .HSLeft {
-            width: 30%;
+            width: 21.5%;
             height: 100%;
-        
+        background-color: rgb(253, 160, 196);
         }
     
      .HSRight {
@@ -59,7 +62,7 @@
             background-image: url("decorative-cosmetics.jpg");
             background-size: cover;
             background-position: center;
-            width: 80%;
+            width: 78.5%;
             height: 100%;
             display: flex;
         }
@@ -87,14 +90,14 @@
             position: absolute;
             width: 20%;
             height: 150px;
-            background-color: rgb(2, 29, 29);
+            background-color:black;
             top: -108px;left: 0;
             transform: rotate(40deg);
             transition: all 0.5s linear;
         }
 
         .HSRContent>button:hover:before {
-            content: "";
+            content"";
             position: absolute;
             width: 20%;
             height: 150px;
@@ -106,15 +109,16 @@
 
         
       .HSRContent>h4 {
-            color: rgb(231, 22, 22);
+            color: rgb(214, 31, 31);
             margin-top: 10px;
+            margin-bottom:20px;
 
         }
-
         .HSRContent>h3 {
             font-size: 30px;
             font-weight: 100;
-            margin-top: 10px;
+            margin-top: 20px;
+
 
         }
 
@@ -125,25 +129,25 @@
     <div class="nav">
     <ul>
         
-       <li><b>WELCOME TO HEADSTORE</b></li>
+       <li><b> Welcome to Nearstore</b></li>
         <li style="  margin-left:630px ;"><b>USD</b></li>
         <li><b>ENG</b></li>
         <li><b>|</b></li>
         <li><b>Blog</b></li>
-        <li><b><Contact us </b></li>
+        <li><b>Contact us </b></li>
         <li><b>Sign In/Register</b></li>
     </ul></div><hr>
-    <h3 style="color:rgb(230,19,19);"style="padding:5px;"><b>NEARSTORE </b><br> community
-        <center><input type="text"placeholder ="All Categories  |  search in"style="outline: solid red ;width:550px;padding:10px;"></center></h3>
+    <h3 style="color:rgb(218, 50, 106);"style="padding:5px;"><b>NEARSTORE </b><br> community
+        <center><input type="text"placeholder ="All Categories  |  search in"style="outline: solid black ;width:550px;padding:10px;margin-bottom:20px;"></center></h3>
        
 
         <div class="navi">
         <ul>
             
             
-            <select option="Categories"style="background-color:rgb(231, 19, 20);">
+            <select option="Categories"style="background-color:palevioletred;">
            
-           <option value="1" style="background-color:white;" >Browse Categories </option>
+           <option value="1"  >Browse Categories </option>
             <option value="2" style="background-color:white;">Fashion</option>
             <option value="3" style="background-color:white;">Home & Garden</option>
             <option value="4" style="background-color:white;">Electronics</option>
